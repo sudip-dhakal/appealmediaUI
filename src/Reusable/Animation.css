@@ -1,0 +1,18 @@
+.animation {
+  position: relative;
+  animation: bounce 2s ease-out infinite;
+  will-change: transform;
+ 
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+
+
